@@ -1,0 +1,115 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Srikanth Reddy",
+      "email": "srikanth@gmail.com",
+      "password": "welcome@srikanth",
+      "phoneNumber": "8686963880",
+      "address": "Hyderabad",
+      "token": "poiuytrewq",
+      "role": "admin",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "fullName": "Venkat",
+      "email": "venkat@gmail.com",
+      "password": "welcome@venkat",
+      "phoneNumber": "8887654321",
+      "address": "Hyderabad",
+      "token": "poiuytrewq",
+      "role": "customer",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "fullName": "Rajesh",
+      "email": "rajesh@gmail.com",
+      "password": "welcome@rajesh",
+      "phoneNumber": "7896543210",
+      "address": "Hyderabad",
+      "token": "poiuytrewq",
+      "role": "customer",
+      "status": "active"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "1",
+      "userId": 1,
+      "balance": 39500,
+      "branch": "Hyderabad",
+      "accountType": "Saving",
+      "transactions": [
+        {
+          "id": 1,
+          "accountNo": 1,
+          "txnType": "credit",
+          "amount": 50000,
+          "txnDate": "8/1/2024, 1:08:04 PM"
+        },
+        {
+          "id": 2,
+          "accountNo": "1",
+          "txnType": "debit",
+          "amount": "10000",
+          "txnDate": "8/1/2024, 3:54:59 PM"
+        },
+        {
+          "id": 3,
+          "accountNo": "1",
+          "txnType": "debit",
+          "amount": "500",
+          "txnDate": "8/2/2024, 12:33:57 PM"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "balance": 15500,
+      "branch": "Hyderabad",
+      "accountType": "Saving",
+      "transactions": [
+        {
+          "id": 1,
+          "accountNo": 1,
+          "txnType": "credit",
+          "amount": 5000,
+          "txnDate": "8/1/2024, 3:37:13 PM"
+        },
+        {
+          "id": 2,
+          "accountNo": "1",
+          "txnType": "credit",
+          "amount": "10000",
+          "txnDate": "8/1/2024, 3:54:59 PM"
+        },
+        {
+          "id": 3,
+          "accountNo": "1",
+          "txnType": "credit",
+          "amount": "500",
+          "txnDate": "8/2/2024, 12:33:57 PM"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "balance": 5000,
+      "branch": "Hyderabad",
+      "accountType": "Saving",
+      "transactions": [
+        {
+          "id": 1,
+          "accountNo": 1,
+          "txnType": "credit",
+          "amount": 5000,
+          "txnDate": "8/2/2024, 12:39:12 PM"
+        }
+      ]
+    }
+  ]
+}
